@@ -1,10 +1,14 @@
 p {
-    color: #9c7835;
+    color: #0E131F;
     
 
 }
 
-#dev-games {
+#accent-text1 {
     color:#76581f;
-    font-size: larger;
+}
+
+#accent-text2 {
+    color: #836734
+
 }
