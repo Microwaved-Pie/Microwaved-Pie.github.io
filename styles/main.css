@@ -1,6 +1,10 @@
 p {
-    color: hsl(217, 54%, 50%);
+    color: #9c7835;
     
 
 }
 
+#dev-games {
+    color:#76581f;
+    font-size: larger;
+}
