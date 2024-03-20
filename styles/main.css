@@ -12,3 +12,8 @@ p {
     color: #836734
 
 }
+
+body {
+    background-color: rgb(207, 196, 255);
+    background-image: url("images/backround-gradient.avif");
+}
