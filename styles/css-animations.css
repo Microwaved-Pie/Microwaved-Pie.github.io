@@ -23,14 +23,17 @@
     padding: 0;
     display: flex;
     gap: 10px;
+    transition: ease-in-out .1s;
+    color:#00aaff
 }
 
-.animated-nav-menu a {
+.animated-nav-menu a:active {
     text-decoration: none;
     border-radius: 10%;
     padding: 4px;
-    color: #00aaff;
-    background-color: white;
+    color: #ffffff;
+    background-color: #5d286d;
+    transition: ease-in-out .05s;
 }
 
 /* Task 3: Button Press Animation */
@@ -42,6 +45,7 @@
     cursor: pointer;
     transform: translateY(-3px) translateX(3px);
     box-shadow: -4px 4px 1px rgb(169, 200, 240);
+    transition: ease-in-out .05s;
 }
 
 .button-press-animation button:active {
@@ -87,4 +91,17 @@
     width: 100px;
     height: 100px;
     object-fit: cover;
+    transform: translateY(0px) translateX(0px);
+    box-shadow: 0px 0px 0px rgb(156, 156, 156);
+    transition: ease-in-out .5s;
+    opacity: .3;
+}
+.fading-gallery img:hover {
+    width: 130px;
+    height: 130px;
+    object-fit: fill;
+    transform: translateY(10px) translateX(10px);
+    box-shadow: -12px -24px 12px rgb(156, 156, 156);
+    transition: linear .2s;
+    opacity: 1;
 }
