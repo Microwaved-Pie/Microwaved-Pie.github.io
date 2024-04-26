@@ -1,15 +1,23 @@
 console.log("Task 1");
-let i = 0
-let sum = 0
-while   (i < 10)   {
-    i * i == sum
-    console.log(sum)
-    let i = i++;
-}
+for (let i = 1; i < 11; i++) {
+    console.log(i * i);
+  }
 console.log("Task 2");
-
+for (let i = 5; i > 0; i--) {
+    console.log(i)
+}
+console.log("Blast Off!")
 console.log("Task 3");
+for (let i = 2; i < 51; i+=2) {
+    console.log(i)
+}
 
 console.log("Task 4");
+result = 0
+for (let i = 1; i < 100; i+=1) {
+    i+result=result
+    console.log(result)
+}
+
 
 console.log("Task 5");
