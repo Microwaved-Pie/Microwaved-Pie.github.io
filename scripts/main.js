@@ -12,12 +12,22 @@ for (let i = 2; i < 51; i+=2) {
     console.log(i)
 }
 
+ let sum = 0
 console.log("Task 4");
-result = 0
-for (let i = 1; i < 100; i+=1) {
-    result = i + result;
-    console.log(result)
+for (let i = 1; i < 101; i++) {
+    sum = i + sum 
 }
+console.log(sum)
 
-
+sum = 1
+let factorial = 0
 console.log("Task 5");
+for (let i = 1; i < 11; i++) {
+    factorial++
+    sum = sum * factorial
+    
+
+    console.log(sum)
+
+
+}
