@@ -25,9 +25,19 @@ console.log("Task 5");
 for (let i = 1; i < 11; i++) {
     factorial++
     sum = sum * factorial
-    
-
     console.log(sum)
-
-
 }
+console.log("Task 6");
+let arr = [3, 1, 4, 1, 5]
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr.at(i))
+}
+console.log("Task 7");
+for (let i = -1; i > -(arr.length); i--) {
+    console.log(arr.at(i))
+}
+console.log("Task 8");
+
+console.log("Task 9");
+
+console.log("Task 10");
