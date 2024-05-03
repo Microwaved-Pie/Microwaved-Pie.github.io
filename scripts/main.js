@@ -33,11 +33,16 @@ for (let i = 0; i < arr.length; i++) {
     console.log(arr.at(i))
 }
 console.log("Task 7");
-for (let i = -1; i > -(arr.length); i--) {
-    console.log(arr.at(i))
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr.at(-i-1))
 }
 console.log("Task 8");
+let arr2 = []
+for (let i = 1; i < 11; i++) {
+    arr2.push(i*i*i)
 
+}
+console.log(arr2)
 console.log("Task 9");
 
 console.log("Task 10");
