@@ -1,31 +1,42 @@
+
 p {
-    color: #ffffff;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 1px 1px #000000;
+    color: #000000;
+    font-family: 'Courier New', monospace;
+    
 }
 
 h1 {
-    color: #ffffff;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 1px 1px #000000;
+    color: #000000;
+    font-family: 'Courier New', monospace;
+    
 }
 
 h2 {
-    color: #ffffff;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 1px 1px #000000;
+    color: #000000;
+    font-family: 'Courier New', monospace;
 }
 
 h3 {
-    color: #ffffff;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 1px 1px #000000;
+    color: #000000;
+    font-family: 'Courier New', monospace;
+    
 }
 
 
 
 body {
-    background-color: #8585ff;
-    background-image: linear-gradient(#ffffff, #64a8fb, #2d1b7f, #040022);
+    background-color: #ffffff;
 }
 
+.center {
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: rgb(110, 224, 110);
+  }
