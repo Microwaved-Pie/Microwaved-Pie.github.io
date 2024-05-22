@@ -40,3 +40,9 @@ body {
     z-index: 99;
     background-color: rgb(110, 224, 110);
   }
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+  }
