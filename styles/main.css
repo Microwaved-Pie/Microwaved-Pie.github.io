@@ -46,3 +46,28 @@ button {
     appearance: none;
     background-color: inherit;
   }
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover img {
+    transform: scale(1.5, 1.5);
+    transform: translate(0px, -30px);
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 3mm 0mm #969696);
+}
+
+div.gallery img {
+  transition: all 0.3s;
+  transition-timing-function: ease;
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 1px;
+  text-align: center;
+}
