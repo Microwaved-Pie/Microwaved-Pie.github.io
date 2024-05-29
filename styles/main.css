@@ -37,12 +37,13 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 99;
     background-color: rgb(110, 224, 110);
+    border-style: double;
+    border-width: 10px;
   }
 button {
     border: none;
-    cursor: pointer;
+    cursor: grab;
     appearance: none;
     background-color: inherit;
   }
@@ -50,24 +51,57 @@ div.gallery {
   margin: 5px;
   float: left;
   width: 180px;
+  padding: 30px;
 }
 
 div.gallery:hover img {
     transform: scale(1.5, 1.5);
-    transform: translate(0px, -30px);
+    transform: translate(0px, -15px);
     width: 100%;
     height: auto;
     filter: drop-shadow(0 3mm 0mm #969696);
 }
+
 
 div.gallery img {
   transition: all 0.3s;
   transition-timing-function: ease;
   width: 100%;
   height: auto;
+  border-style: double;
+  border-width: 10px;
+  background-color: rgb(255, 255, 255);
 }
 
 div.desc {
+  transition: all 0.3s;
+  transition-timing-function: ease;
   padding: 1px;
   text-align: center;
+  font-family: 'Courier New', monospace;
+  border-style: double;
+  border-width: 10px;
+  width: 99%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+div.desc:hover {
+  padding: 1px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  transform: scale(1.5, 1.5);
+  transform: translate(0px, -15px);
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 3mm 0mm #969696);
+}
+
+div.goback {
+
+
+}
+
+div.goforward {
+  
 }
