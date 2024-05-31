@@ -35,7 +35,7 @@ body {
 .header {
     transition: all 0.3s;
     transition-timing-function: ease;
-    width: 100%;
+    width: auto;
     height: auto;
     background-color: rgb(110, 224, 110);
     border-style: double;
@@ -44,7 +44,7 @@ body {
   }
 
 .header:hover {
-  width: 100%;
+  width: auto;
   height: auto;
   background-color: rgb(110, 224, 110);
   border-style: double;
