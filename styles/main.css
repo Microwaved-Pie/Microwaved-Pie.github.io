@@ -131,6 +131,7 @@ div.desc:hover {
   font-family: 'Courier New', monospace;
   font-size: 20px;
   height: auto;
+  width: auto;
 }
 
 #leftbutton:hover {
@@ -145,6 +146,7 @@ div.desc:hover {
   transform: translate(0px, -15px);
   font-weight: bold;
   height: auto;
+  width: auto;
 }
 
 
@@ -159,6 +161,7 @@ div.desc:hover {
   font-family: 'Courier New', monospace;
   font-size: 20px;
   height: auto;
+  width: auto;
 }
 
 #rightbutton:hover {
@@ -171,4 +174,5 @@ div.desc:hover {
   transform: translate(0px, -15px);
   font-weight: bold;
   height: auto;
+  width: auto;
 }
