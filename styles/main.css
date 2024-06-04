@@ -79,6 +79,7 @@ div.gallery {
   margin: 5px;
   width: 180px;
   padding: 5px;
+  transform: translate(-20px, 0px, 0px);
 }
 
 div.gallery:hover img {
