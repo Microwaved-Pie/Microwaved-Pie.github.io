@@ -78,6 +78,7 @@ body {
 div.gallery {
   margin: 5px;
   float: left;
+  float: right;
   width: 180px;
   padding: 54px;
 }
