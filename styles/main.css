@@ -63,23 +63,22 @@ body {
     border: none;
     appearance: none;
     background-color: inherit;
-    filter:drop-shadow(5px 5px 0 #969696);
-    filter:drop-shadow(-5px -5px 0 #969696);
+    filter:drop-shadow(0px -10px 0 #969696);
 }
 
 #bigredbutton:hover {
   border: none;
   appearance: none;
   background-color: inherit;
-  filter:drop-shadow(5px 5px 0 #969696);
   filter:drop-shadow(0px 0px 0 #969696);
-  transform: translate(-5px, -5px);
+  transform: translate(0px, -5px);
+  filter:drop-shadow(0px -5px 0 #969696);
 }
+
 div.gallery {
-  margin: 58px;
-  width: 180px;
+  margin: 56px;
+  width: 250px;
   padding: 5px;
-  float:left;
 }
 
 div.gallery:hover img {
@@ -93,7 +92,7 @@ div.gallery:hover img {
 div.gallery img {
   transition: all 0.3s;
   transition-timing-function: ease;
-  width: 150%;
+  width: 100%;
   height: auto;
   border-style: double;
   border-width: 10px;
@@ -108,7 +107,7 @@ div.desc {
   font-family: 'Courier New', monospace;
   border-style: double;
   border-width: 10px;
-  width: 149%;
+  width: 100%;
   height: auto;
   background-color: rgb(255, 255, 255);
 }
@@ -178,4 +177,10 @@ div.desc:hover {
   font-weight: bold;
   height: auto;
   width: auto;
+}
+
+div.flexbox {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
