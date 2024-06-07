@@ -76,7 +76,13 @@ body {
   filter:drop-shadow(0px -5px 0 #969696);
 }
 
+#curtain { 
+  position: absolute;
+  z-index: 2;
+}
+
 div.gallery {
+  content: "";
   margin: 20px;
   width: 250px;
   padding: 5px;
