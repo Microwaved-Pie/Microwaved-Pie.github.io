@@ -46,6 +46,7 @@ body {
     border-style: double;
     border-width: 10px;
     transform: translate(0px, 15px);
+    border-radius: 10px;
   }
 
 .header:hover {
@@ -79,6 +80,7 @@ div.gallery {
   margin: 20px;
   width: 250px;
   padding: 5px;
+  border-radius: 10px;
 }
 
 div.gallery:hover img {
@@ -97,6 +99,7 @@ div.gallery img {
   border-style: double;
   border-width: 10px;
   background-color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
 
 div.desc {
@@ -110,6 +113,7 @@ div.desc {
   width: 100%;
   height: auto;
   background-color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
 
 div.desc:hover {
@@ -134,6 +138,7 @@ div.desc:hover {
   font-size: 20px;
   height: auto;
   width: auto;
+  border-radius: 10px;
 }
 
 #leftbutton:hover {
@@ -164,6 +169,7 @@ div.desc:hover {
   font-size: 20px;
   height: auto;
   width: auto;
+  border-radius: 10px;
 }
 
 #rightbutton:hover {
